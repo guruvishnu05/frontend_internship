@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Real Estate</a>
+            <ul class="nav-links">
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="properties" class="hero">
+        <div class="hero-text">
+            <h2>Featured Properties</h2>
+            <p>Explore our exclusive listings in prime locations.</p>
+        </div>
+        <div class="property-grid">
+            <div class="property-card" onclick="showDetails('Luxury Villa', 'Located in Banjara Hills, 5 bed, 4 bath. A spacious home with a beautiful garden and swimming pool.')">
+                <h3 class="luxury">Luxury Villa</h3>
+                <p>Banjara Hills, 5 bed, 4 bath</p>
+            </div>
+            <div class="property-card" onclick="showDetails('Modern Apartment', 'Located in Hitech City, 3 bed, 2 bath with a skyline view. Comes with state-of-the-art facilities.')">
+                <h3 class="modern">Modern Apartment</h3>
+                <p>Hitech City, 3 bed, 2 bath</p>
+            </div>
+            <div class="property-card" onclick="showDetails('Mediterranean', 'Located in Gachiboli, 4 bed, 3 bath with a stunning palace look.')">
+                <h3 class="Mediterranean">Mediterranean Palace</h3>
+                <p>Gachiboli, 4 bed, 3 bath</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We are a leading real estate firm with over 20 years of experience, providing top-tier services and premium listings.</p>
+            <p>Our dedicated team of professionals is committed to helping you find the perfect home or investment opportunity.</p>
+            <p>With a strong network of industry experts, we ensure that each transaction is smooth and hassle-free.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
